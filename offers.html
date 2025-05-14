@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banki.tech</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body>
+    
+  <!-- Menuu -->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand" href="./">Banki.tech</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center">
+          <li class="nav-item ">
+            <a class="nav-link" aria-current="page" href="./bank-card.html">Банки</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./get-credit.html">Кредиты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./get-credit.html">Вклады</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./card.html">Карты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./insurance-companies.html">Страховые организации</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./articles.html">Новости</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Аналитика</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-more-btn" aria-current="page" href="#"><i class="fa-solid fa-ellipsis cm"></i></a>
+          </li>
+        </ul>
+        <a class="float-right nav-link" aria-current="page" href="#">Вход</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Head Image -->
+  <div class="head-image" >  
+
+  </div>
+
+  <!-- Search -->
+  <div class="container-fluid search-main mt-5 pb-4 mb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mt-4">
+          <h3 class="w-100">Поиск по сайту</h3>
+        </div>
+        <div class="col-md-9 mt-4 " style="padding-right: 0px!important;">
+          <div class="form-group">
+            <input type="text" class="form-control elements" id="inputPassword2" placeholder="Я ищу...">
+          </div>
+            
+        </div>
+        <div class="col-md-3 mt-4 ">
+          <button type="submit" class="btn btn-primary mb-2 gb elements w-100">Найти</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Selector -->
+  <div class="container mb-3">
+    <div class="row">
+
+      <div class="col-md-12">
+        <div class="selectors-block d-flex">
+          <div class="selector-item active">
+            <a href="#deposit-tap">
+              <div class="selector-label d-flex">
+                <img src="assets/images/safe_icon.png" alt="safe_icon.png">
+                <p>Вклад</p>
+              </div>
+            </a>
+          </div>
+          <div class="selector-item">
+            <a href="#credits-tap">
+              <div class="selector-label d-flex">
+                <img src="assets/images/safe_icon.png" alt="safe_icon.png">
+                <p>Кредиты</p>
+              </div>
+            </a>
+          </div>
+          <div class="selector-item">
+            <a href="#cards-tap">
+              <div class="selector-label d-flex">
+                <img src="assets/images/safe_icon.png" alt="safe_icon.png">
+                <p>Карты</p>
+              </div>
+            </a>
+          </div>
+          <div class="selector-item">
+            <a href="#insurance-tap">
+              <div class="selector-label d-flex">
+                <img src="assets/images/safe_icon.png" alt="safe_icon.png">
+                <p>Страхование</p>
+              </div>
+            </a>
+          </div>
+          <div class="selector-item">
+            <a href="#microloans-tap">
+              <div class="selector-label d-flex">
+                <img src="assets/images/safe_icon.png" alt="safe_icon.png">
+                <p>Микрозаймы</p>
+              </div>
+            </a>
+          </div>
+          <div class="selector-item">
+            <a href="#currency-tap">
+              <div class="selector-label d-flex">
+                <img src="assets/images/safe_icon.png" alt="safe_icon.png">
+                <p>Курс валют</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-tabs-content">
+        <div class="col-md-12 sel-tab-items active" id="deposit-tap">
+          <div class="tab-items-flex">
+            <div class="sel-tab-flex mt-5">
+              <form id="depositForm" class="dep-calc">
+                <label class="w-100">
+                  Сумма вклада
+                  <div class="d-block dep-inputs">
+                    <input type="text" value="50000 рублей" class="w-100 dep-calc-result js_depCalcOut" disabled>
+                    
+                    <div class="range-block">
+                      <input type="range" class="d-block w-100 js_depRange" 
+                            name="amount" min="0" max="45" step="1" value="0" data-start="50000" data-step="10000" data-unit="рублей" required>
+
+                      <ul class="dep-calc-range">
+                        <li>50 000 рублей</li>
+                        <li>500 000 рублей</li>
+                      </ul>
+                    </div>
+                  </div>                    
+                </label>
+                <label class="w-100">
+                  Срок (более)
+                    <div class="d-block dep-inputs">
+                    
+                      <input type="text" value="50000 рублей" class="w-100 dep-calc-result js_depCalcOut" disabled>
+                    
+                      <div class="range-block">
+                        <input type="range" class="d-block w-100 js_depRange" name="amount" min="0" max="11" step="1"
+                        value="0" data-step="1" data-start="1" data-unit="мес" required>
+
+                        <ul class="dep-calc-range">
+                          <li>1 мес</li>
+                          <li>12 мес</li>
+                        </ul>
+                      </div>
+
+                    </div>                    
+                </label>
+              </form>
+
+              <div class="calc-info-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12 2C6.486 2 2 6.48606 2 12.0001C2 17.5141 6.486 22 12 22C17.514 22 22 17.5141 22 12.0001C22 6.48606 17.514 2 12 2ZM12 20.1818C7.48849 20.1818 3.81818 16.5115 3.81818 12.0001C3.81818 7.48861 7.48849 3.81818 12 3.81818C16.5115 3.81818 20.1818 7.48861 20.1818 12.0001C20.1818 16.5115 16.5115 20.1818 12 20.1818Z" fill="#696E82"></path>
+									<path d="M12.0009 6.24234C11.3327 6.24234 10.7891 6.78634 10.7891 7.45501C10.7891 8.12307 11.3327 8.66658 12.0009 8.66658C12.6692 8.66658 13.2128 8.12307 13.2128 7.45501C13.2128 6.78634 12.6692 6.24234 12.0009 6.24234ZM12.0011 10.4848C11.499 10.4848 11.092 10.8918 11.092 11.3939V16.8484C11.092 17.3505 11.499 17.7575 12.0011 17.7575C12.5031 17.7575 12.9102 17.3505 12.9102 16.8484V11.3939C12.9102 10.8918 12.5031 10.4848 12.0011 10.4848Z" fill="#696E82"></path>
+								</svg>
+                Расчет является примерным и носит информационный характер
+              </div>
+            </div>
+
+            <div class="sel-tab-flex mt-5">
+              <div class="dep-calc-reslt">
+                <div class="calc-reslt-item flex-1">
+                  <span class="d-block">
+                    Процентная ставка
+                  </span>
+                  <p class="js_intRate">1% <br>годовых</p>
+                </div>  
+                <div class="calc-reslt-item flex-1">
+                  <span class="d-block">
+                    Доход по вкладу
+                  </span>
+                  <p class="js_depIncome">392 <br> рублей</p>
+                </div>  
+                 <div class="calc-reslt-item flex-1">
+                  <span class="d-block">
+                    Сумма в конце срока
+                  </span>
+                  <p class="js_depSum">470 392 рублей</p>
+                </div>  
+              </div>
+             <div class="user-form">
+              <h4 class="user-form__title">Контактная информация</h4>
+              <form class="user-form__body">
+                
+                <div class="form-field">
+                  <label class="form-field__label">
+                    <span>ФИО</span>
+                    <input class="form-field__input input--text-only" type="text" pattern="[^\d]*" placeholder="Введите ФИО">
+                  </label>
+                </div>
+
+                <div class="form-field">
+                  <label class="form-field__label">
+                    <span>Телефон</span>
+                    <input class="form-field__input" type="tel" id="phone" pattern="[0-9]*" maxlength="13" placeholder="Ваш телефон">
+                  </label>
+                </div>
+
+                <div class="form-consent">
+                  <label class="form-consent__checkbox">
+                    <input type="checkbox">
+                    Я соглашаюсь на обработку <a href="#" class="form-consent__link">персональных данных</a>
+                  </label>
+                </div>
+
+                <button class="btn btn--submit w-100">Оставить заявку</button>
+
+              </form>
+            </div>
+
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="col-md-12 sel-tab-items" id="credits-tap">
+          <div class="tab-items-flex">
+            <div class="sel-tab-flex mt-5">
+              <div class="cart-header-1">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="credits-tap-label">
+                      <label for="">Ежемесячный платёж</label>
+                      <p class="monthly-payment">15 000</p>
+                    </div>
+                  
+                  </div>
+                </div>
+                
+                <input type="range" min="0" max="7" step="1" value="2" class="range-1 w-100 js_range" list="sums">
+                <datalist id="sums">
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                </datalist>
+                <ul class="range-1-nums"> 
+                  <li>1000</li>
+                  <li>3 тыc</li>
+                  <li>5 тыc</li>
+                  <li>10 тыc</li>
+                  <li>15 тыc</li>
+                  <li>20 тыc</li>
+                  <li>25 тыc</li>
+                  <li>1 млн</li>
+                </ul>
+              </div>
+              <div class="cart-body-1">
+                <label for="">Срок кредита</label>
+                <div class="form-grop term-sellector pt-2">
+                  <button class="active">1 год</button>
+                  <button>2 год</button>
+                  <button>3 год</button>
+                  <button>4 год</button>
+                  <button>5 год</button>
+                </div>
+                <label class="pt-5">
+                  Расчет калькулятора произведен по ставка, действующим при условии оформления
+        финансовой защиты к кредиту. Неявляется публичной офертой.
+                </label>
+              </div>
+              
+            </div>
+
+            <div class="sel-tab-flex mt-5 ">
+              <div class="cart-2">
+                <label>Наше предложение</label>
+                <div class="row">
+                  <div class="col-md-7">
+                    <label class="card-2-label">Первоночальный взнос</label>
+                    <p class="our-summ">
+                      <i class="fa-solid fa-minus"></i>
+                      <span class="js_initPay">1 637.5 </span> RUB
+                      <i class="fa-solid fa-plus"></i>
+                    </p>
+                  </div>
+                  <div class="col-md-5">
+                    <label class="card-2-label">Процентная ставка</label>
+                    <p class="our-summ">
+                      
+                      <span>31 %</span>
+                      
+                    </p>
+                    
+                    
+                  </div>
+                
+                  <div class="cl-md-5">
+                    <button class="gb elements w-50 get-credit mt-5 mb-4">Получить кредит</button>
+                  </div>              
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
+
+      <div class="col-md-12 mt-5 mb-3 prof-offer">
+        <p><i class="fa-solid fa-angle-down"></i> Выгодные предложения</p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Offers -->
+  <div class="container offers-list">
+      <div class="row">
+          <div class="col-md-12">
+              <button>ТОП 3</button>
+              <button>ТОП 5</button>
+              <button>ТОП 10</button>
+          </div>
+
+          <div class="col-md-12 mt-4">
+    <div class="list">
+
+        <div class="item">
+            <div class="row">
+                <div class="col-md-3 text-center brand-block">
+                    <img src="assets/images/image-8.png" alt="">
+                    <div class="rating">
+                        <input type="radio" name="item1-rating" value="5" id="item1-5"><label for="item1-5">☆</label>
+                        <input type="radio" name="item1-rating" value="4" id="item1-4"><label for="item1-4">☆</label>
+                        <input type="radio" name="item1-rating" value="3" id="item1-3"><label for="item1-3">☆</label>
+                        <input type="radio" name="item1-rating" value="2" id="item1-2"><label for="item1-2">☆</label>
+                        <input type="radio" name="item1-rating" value="1" id="item1-1"><label for="item1-1">☆</label>
+                    </div>
+                </div>
+                <div class="col-md-3 main-body">
+                    <p class="label">Товары в расрочку</p>
+                    <p class="percent">от 31%</p>
+                    <p class="subtext">Ставка в год</p>
+                </div>
+                <div class="col-md-3 main-body">
+                    <p class="sums">1 000 - 25 000</p>
+                    <p class="subtext">На срок до 12 мес</p>
+                    <p class="description">Паспорт РT + 2 документа <br>Без поручителя</p>
+                </div>
+                <div class="col-md-3 button-place" style="margin: 0 auto;">
+                    <button class="more">Подробнее</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="row">
+                <div class="col-md-3 text-center brand-block">
+                    <img src="assets/images/image-8.png" alt="">
+                    <div class="rating">
+                        <input type="radio" name="item2-rating" value="5" id="item2-5"><label for="item2-5">☆</label>
+                        <input type="radio" name="item2-rating" value="4" id="item2-4"><label for="item2-4">☆</label>
+                        <input type="radio" name="item2-rating" value="3" id="item2-3"><label for="item2-3">☆</label>
+                        <input type="radio" name="item2-rating" value="2" id="item2-2"><label for="item2-2">☆</label>
+                        <input type="radio" name="item2-rating" value="1" id="item2-1"><label for="item2-1">☆</label>
+                    </div>
+                </div>
+                <div class="col-md-3 main-body">
+                    <p class="label">Товары в расрочку</p>
+                    <p class="percent">от 31%</p>
+                    <p class="subtext">Ставка в год</p>
+                </div>
+                <div class="col-md-3 main-body">
+                    <p class="sums">1 000 - 25 000</p>
+                    <p class="subtext">На срок до 12 мес</p>
+                    <p class="description">Паспорт РT + 2 документа <br>Без поручителя</p>
+                </div>
+                <div class="col-md-3 button-place" style="margin: 0 auto;">
+                    <button class="more">Подробнее</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="row">
+                <div class="col-md-3 text-center brand-block">
+                    <img src="assets/images/image-8.png" alt="">
+                    <div class="rating">
+                        <input type="radio" name="item3-rating" value="5" id="item3-5"><label for="item3-5">☆</label>
+                        <input type="radio" name="item3-rating" value="4" id="item3-4"><label for="item3-4">☆</label>
+                        <input type="radio" name="item3-rating" value="3" id="item3-3"><label for="item3-3">☆</label>
+                        <input type="radio" name="item3-rating" value="2" id="item3-2"><label for="item3-2">☆</label>
+                        <input type="radio" name="item3-rating" value="1" id="item3-1"><label for="item3-1">☆</label>
+                    </div>
+                </div>
+                <div class="col-md-3 main-body">
+                    <p class="label">Товары в расрочку</p>
+                    <p class="percent">от 31%</p>
+                    <p class="subtext">Ставка в год</p>
+                </div>
+                <div class="col-md-3 main-body">
+                    <p class="sums">1 000 - 25 000</p>
+                    <p class="subtext">На срок до 12 мес</p>
+                    <p class="description">Паспорт РT + 2 документа <br>Без поручителя</p>
+                </div>
+                <div class="col-md-3 button-place" style="margin: 0 auto;">
+                    <button class="more">Подробнее</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="row">
+                <div class="col-md-3 text-center brand-block">
+                    <img src="assets/images/image-8.png" alt="">
+                    <div class="rating">
+                        <input type="radio" name="item4-rating" value="5" id="item4-5"><label for="item4-5">☆</label>
+                        <input type="radio" name="item4-rating" value="4" id="item4-4"><label for="item4-4">☆</label>
+                        <input type="radio" name="item4-rating" value="3" id="item4-3"><label for="item4-3">☆</label>
+                        <input type="radio" name="item4-rating" value="2" id="item4-2"><label for="item4-2">☆</label>
+                        <input type="radio" name="item4-rating" value="1" id="item4-1"><label for="item4-1">☆</label>
+                    </div>
+                </div>
+                <div class="col-md-3 main-body">
+                    <p class="label">Товары в расрочку</p>
+                    <p class="percent">от 31%</p>
+                    <p class="subtext">Ставка в год</p>
+                </div>
+                <div class="col-md-3 main-body">
+                    <p class="sums">1 000 - 25 000</p>
+                    <p class="subtext">На срок до 12 мес</p>
+                    <p class="description">Паспорт РT + 2 документа <br>Без поручителя</p>
+                </div>
+                <div class="col-md-3 button-place" style="margin: 0 auto;">
+                    <button class="more">Подробнее</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="row">
+                <div class="col-md-3 text-center brand-block">
+                    <img src="assets/images/image-8.png" alt="">
+                    <div class="rating">
+                        <input type="radio" name="item5-rating" value="5" id="item5-5"><label for="item5-5">☆</label>
+                        <input type="radio" name="item5-rating" value="4" id="item5-4"><label for="item5-4">☆</label>
+                        <input type="radio" name="item5-rating" value="3" id="item5-3"><label for="item5-3">☆</label>
+                        <input type="radio" name="item5-rating" value="2" id="item5-2"><label for="item5-2">☆</label>
+                        <input type="radio" name="item5-rating" value="1" id="item5-1"><label for="item5-1">☆</label>
+                    </div>
+                </div>
+                <div class="col-md-3 main-body">
+                    <p class="label">Товары в расрочку</p>
+                    <p class="percent">от 31%</p>
+                    <p class="subtext">Ставка в год</p>
+                </div>
+                <div class="col-md-3 main-body">
+                    <p class="sums">1 000 - 25 000</p>
+                    <p class="subtext">На срок до 12 мес</p>
+                    <p class="description">Паспорт РT + 2 документа <br>Без поручителя</p>
+                </div>
+                <div class="col-md-3 button-place" style="margin: 0 auto;">
+                    <button class="more">Подробнее</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+          </div>
+      </div>
+  </div>
+ 
+
+  <!-- Ads -->
+  <div class="container mb-5" >
+    <div class="row">
+      <div class="col-md-12 ">
+        <div class="big-ads ">
+          <p>Место для рекламы</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 copyright">
+          <span>
+            © 2021 ООО «Banki.tech». Email: info@banki.tech; Контакты: 918 85-72-70 <br>При использовании материалов гиперссылка на banki.tech обязательна.
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>    
+
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1170 @@
+
+@media screen and (max-width:1399px){
+
+    .apply-item .button-place {
+        width: auto;
+    }
+
+    .conditions-c {
+        padding: 69px 0px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+
+    .plastic-card .card-item .card img{
+        width: 130px;
+    }
+    .plastic-card .name-card .header {
+        font-size: 20px;
+    }
+    .plastic-card .name-card .subtitle {
+        font-size: 10px;
+    }
+    .plastic-card .name-card {
+        margin-right: 80px;
+    }
+    .plastic-card .more-btn {
+        padding: 12px 43px;
+    }
+
+    .review-block .top-control .user-param {
+        font-size: 12px;
+    }
+    .item .main-body .name {
+        font-size: 22px;
+        color: #F15330;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+
+    .brand-block img {
+        width: 118px;
+    }
+
+    .item .main-body {
+        padding-left: 35px;
+    }
+
+    .item .main-body .subtext {
+        font-size: 11px;
+    }
+
+    .item .main-body .subtext2 {
+        font-size: 11px;
+    }
+
+    .item .more {
+        position: relative;
+        color: #fff;
+        background-color: #FB5523;
+        margin: 0;
+        top: 0;
+        transform: translateY(0);
+        padding: 15px 41px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .button-place{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .payman-con .payment-ac {
+        margin: 0px 200px;
+    }
+
+    .vacancy-list .vacancy-item .vac {
+        font-size: 29px;
+    }
+
+    .item .main-body .sums {
+        font-size: 30px;
+        color: #F15330;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:1195px){
+
+    .apply-item .elipse {
+        width: 275px;
+        position: relative;
+    }
+
+    .apply-item .elipse img{
+        width: 260px;
+        height: 100%;
+    }
+    .apply-item .elipse .hand img{
+        width: 225px;
+    }
+    .credit-price {
+        margin-left: 80px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .apply-item .credit-rate .rate-percent .percenet {
+        font-size: 27px;
+        margin-bottom: 6px;
+    }
+    .apply-item .button-place {
+        margin-left: 30px;
+
+    }
+
+    .apply-item .button-place .more {
+        width: 185px;
+    }
+}
+
+@media screen and (min-width: 1024px ){
+    .navbar .nav-link{
+        font-size: 15px;
+    }
+    .off-card .cr-card .elipse {
+        background-color: #4EB472;
+        height: 195px!important;
+        width: 134px!important;
+        border-radius: 50% 0px 0px 50%;
+        display: flex;
+        align-items: center;
+
+    }
+    .off-card .cr-card {
+        width: initial!important;
+        height: 150px!important;
+
+    }
+    .off-card .cr-card .elipse img {
+        width: 75px!important;
+        height: 75px!important;
+        margin-left: 44px!important;
+    }
+    .off-card .cr-card .off .header {
+        font-size: 19px!important;
+
+    }
+
+    .bank-info .branc-atms .number .branc-atms-square {
+        width: 125px!important;
+        height: 125px!important;
+    }
+
+}
+
+@media screen and (max-width: 1024px ){
+    .navbar .nav-link{
+        font-size: 15px;
+    }
+    .off-card .cr-card .elipse {
+        background-color: #4EB472;
+        height: 195px!important;
+        width: 134px!important;
+        border-radius: 50% 0px 0px 50%;
+        display: flex;
+        align-items: center;
+
+    }
+    .off-card .cr-card {
+        width: initial!important;
+        height: 150px!important;
+
+    }
+    .off-card .cr-card .elipse img {
+        width: 75px!important;
+        height: 75px!important;
+        margin-left: 44px!important;
+    }
+    .off-card .cr-card .off .header {
+        font-size: 19px!important;
+
+    }
+
+    .bank-info .branc-atms .number .branc-atms-square {
+        width: 125px!important;
+        height: 125px!important;
+    }
+    .brand-block img{
+        width: 125px;
+    }
+    .item .main-body .label {
+        font-size: 22px;
+    }
+    .item .main-body .subtext {
+        font-size: 10px;
+    }
+    .item .more {
+        position: relative!important;
+        top: initial!important;
+        transform: none!important;
+        padding: 15px 43px;
+        text-align: center;
+        margin-left: 0px!important;
+    }
+    .bank-list .data {
+        font-size: 9px;
+    }
+    .offers-list .button-place {
+       display: flex;
+       align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 991.5px){
+    .range-1-nums li {
+        padding-right: 13px!important;
+        text-align: center!important;
+    }
+    .range-1-nums li:last-child {
+        padding-right: 0!important;
+    }
+    .brick .label {
+        font-size: 24px!important;
+        padding-left: 50px!important;
+    }
+
+    .brick-image{
+        width: 35%;
+    }
+    .bank-info .branc-atms .number .branc-atms-square {
+        width: 95px!important;
+        height: 95px!important;
+    }
+    .entrails{
+        font-size: 13px;
+    }
+    .bank-info .branc-atms .number .header {
+        font-size: 25px;
+    }
+    .off-card .cr-card .elipse img {
+        width: 40px!important;
+        height: 40px!important;
+        margin-left: 25px!important;
+    }
+    .off-card .cr-card {
+        width: initial!important;
+        height: 100px!important;
+
+    }
+    .off-card .cr-card .elipse {
+        height: 125px!important;
+        width: 80px!important;
+    }
+    .off-card .cr-card .elipse img {
+        width: 40px!important;
+        height: 40px!important;
+        margin-left: 30px!important;
+    }
+    .off-card .cr-card .off .header {
+        font-size: 13px!important;
+    }
+    .item .more {
+        padding: 10px 24px;
+    }
+    .item .main-body .label {
+        font-size: 18px;
+    }
+    .card-inf-col{
+        display: block;
+    }
+    .plastic-card .name-card {
+       display: none;
+    }
+    .plastic-card .card-ser {
+       display: none;
+    }
+    .card-inf-col .name-card{
+        display: block;
+    }
+    .card-inf-col .name-card{
+        display: block;
+    }
+    .card-inf-col .card-ser{
+        display: block;
+    }
+    .plastic-card .unu-rec {
+        position: absolute;
+        right: 0px;
+        background-image: url(../images/Vector\ 11.svg);
+        background-repeat: no-repeat;
+        width: 39%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .plastic-card .more-btn {
+        padding: 11px 23px!important;
+    }
+    .plastic-card .name-card {
+        margin-right: 80px;
+        margin-bottom: 35px;
+    }
+    .plastic-card .divider-block {
+        margin: 0 40px 0px 38px;
+    }
+    .plastic-card .card-item .card img {
+        width: 150px!important;
+    }
+    .plastic-card .card-ser .ser-block .text {
+        font-size: 9px;
+    }
+
+    .review-block .top-control .user-icon img{
+        width: 78px;
+    }
+
+    .review-block .top-control div {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .review-block .top-control .user-param .city {
+        padding: 0px 10px;
+    }
+
+    .rating>label {
+        font-size: 16px;
+    }
+    .review-block .review-text {
+        font-size: 13px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    .com-chat .leave-rev .leave-rev-block .leave-rev-text .header {
+        font-size: 18px;
+    }
+
+    .com-chat .leave-rev .leave-rev-block .leave-rev-text {
+        font-size: 13px;
+    }
+
+    .com-chat .leave-rev .leave-rev-block .leave-btn {
+        width: 170px;
+        height: 46px;
+    }
+
+    .com-chat .leave-rev {
+        height: 225px;
+    }
+    .contact-block .cotact-item .telephone {
+        font-size: 14px;
+    }
+    .contact-block .cotact-item .header {
+        font-size: 14px;
+    }
+
+    .brand-block img {
+        width: 100px!important;
+    }
+
+    .item .main-body {
+        padding-left: 29px!important;
+    }
+
+    .item .main-body .name {
+        font-size: 17px!important;
+    }
+
+    .item .main-body .subtext2 {
+        font-size: 10px!important;
+    }
+
+    .item .more {
+        font-size: 16px!important;
+        padding: 12px 28px!important;
+    }
+
+    .apply-item {
+        position: relative;
+    }
+    .apply-item .elipse img {
+        width: 305px;
+        height: 100%;
+    }
+    .apply-item .elipse .hand {
+        position: absolute;
+        bottom: 10px;
+        right: 0px;
+    }
+    .credit-price {
+        margin-left: 25px!important;
+        margin-top: 35px!important;
+        margin-bottom: 88px!important;
+    }
+    .apply-item .credit-rate .rate-percent .percenet {
+        width: max-content;
+    }
+
+    .apply-item .button-place {
+        position: absolute;
+        bottom: 13px;
+        right: 55px;
+    }
+    .apply-item .elipse {
+        width: 350px;
+    }
+
+    .payman-con .payment-ac {
+        margin: 0px 70px;
+    }
+
+    .credit-option ul .tab-item {
+        margin: 0px 50px;
+    }
+
+    .tab-item-desable {
+        margin: 0px 50px;
+    }
+
+    .vacancy-list .col-md-4 {
+        margin-bottom: 20px;
+        width: 50%;
+    }
+
+    .review-list .header {
+        text-align: right;
+        font-size: 11px;
+        color: #707070;
+    }
+    .review-list .header span {
+        padding: 0 11px;
+        border: none!important;
+    }
+
+    .site-map {
+        max-width: 803px!important;
+    }
+
+    .site-map .map-item .description p {
+        font-size: 11px;
+        color: #707070;
+        margin-bottom: 0;
+    }
+
+    .site-map .map-item a {
+        text-decoration: none;
+        color: #1A1ED8;
+        font-size: 16px;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+
+    .item .main-body .sums {
+        font-size: 21px;
+        color: #F15330;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+    .tab-items-flex{
+        flex-wrap: wrap;
+    }
+    .sel-tab-flex{
+        flex: 0 0 100%;
+    }
+
+    .selector-label{
+        padding: 8px 12px;
+    }
+    .selector-item.active{
+        box-shadow: none;
+        border-radius: 4px;
+        background-color: #202039;
+        color: #fff;
+    }
+    .selector-label p{
+        margin: 0px;
+    }
+    .selector-item img{
+        display: none;
+    }
+    .selector-item.active::after {
+        display: none;
+    }
+    .mt-5{
+         margin-top: clamp(20px, 2vw, 48px)!important;
+    }
+    .pt-5{
+         padding-top: clamp(20px, 2vw, 48px)!important;
+    }
+    .calc-info-box{
+        margin-top: clamp(12px, 2vw, 30px)!important;
+    }
+    .sel-tab-flex .cart-body-1{
+        height: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .main-tabs .nav-item{
+       width: 50%;
+       position: relative;
+       margin-bottom: 10px;
+    }
+    .brick {
+        margin-bottom: 10px;
+    }
+    .main-tabs .nav-item.active::after{
+        font-family: "FontAwesome"!important;
+        content: "\f0d7";
+        position: absolute;
+        padding-left: 0px;
+        color: #334775;
+        padding-top: 0px;
+        font-size: 25px;
+        top: 50%;
+        left: 28px;
+        transform: translate(0, -50%) rotate(270deg);
+    }
+
+
+    .main-tabs .nav-item.active{
+        background-color: #f5f5f5;
+        border-left: 2px solid #334775;
+        box-shadow: none;
+    }
+    .cart-body-1 button {
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    .mob-m{
+        margin-top: 200px!important;
+    }
+
+    .brick img {
+        padding-top: 83px!important;
+        padding-left: 32px!important;
+    }
+
+    .cur-left {
+        margin-top: 102px;
+    }
+
+    .brick.orange{
+        margin-bottom: 10px;
+    }
+
+    .pegina .pegin-item a{
+        padding: 5px 10px!important;
+    }
+    .pegina .pegin-item.active{
+        padding: 5px 10px!important;
+    }
+    .partners .col-md-4{
+        margin: 0px 0px 10px 0px;
+    }
+    .text-brick{
+        width: 65%;
+    }
+    .brick.light {
+        margin-bottom: 10px;
+    }
+    .off-card .col-md-4{
+        width: 100%;
+    }
+
+    .off-card .col-md-4 .cr-card{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .bank-info .branc-atms .number .branc-atms-square {
+        font-size: 12px!important;
+    }
+    .bank-info .branc-atms .number .branc-atms-square {
+        font-size: 12px!important;
+        width: 90px!important;
+        height: 90px!important;
+    }
+    .bank-info .branc-atms .header {
+        font-size: 20px!important;
+    }
+    .selectors-block{
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding: 5px;
+    }
+    .selector-item{
+        padding: 0px;
+        flex: 0 0 120px;
+        font-size: 14px;
+        flex-shrink: 0; 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bank-info .info {
+        margin-left: 0px!important;
+    }
+    .bank-info .branc-atms {
+       margin-top: 24px;
+    }
+    .bank-info .branc-atms .number .branc-atms-square {
+        font-size: 14px!important;
+        width: 130px!important;
+        height: 130px!important;
+    }
+
+    .main-tabs .nav-item{
+       width: 50%;
+       position: relative;
+       margin-bottom: 10px;
+    }
+    .brick {
+        margin-bottom: 10px;
+    }
+    .main-tabs .nav-item.active::after{
+        font-family: "FontAwesome"!important;
+        content: "\f0d7";
+        position: absolute;
+        padding-left: 0px;
+        color: #334775;
+        padding-top: 0px;
+        font-size: 25px;
+        top: 50%;
+        left: 28px;
+        transform: translate(0, -50%) rotate(270deg);
+    }
+
+    .offers-list .button-place {
+        justify-content: center;
+        margin-top: 10px!important;
+    }
+
+    .main-tabs .nav-item.active{
+        background-color: #f5f5f5;
+        border-left: 2px solid #334775;
+        box-shadow: none;
+    }
+    .cart-body-1 button {
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    .mob-m{
+        margin-top: 200px!important;
+    }
+
+    .brick img {
+        padding-top: 83px!important;
+        padding-left: 32px!important;
+    }
+
+    .cur-left {
+        margin-top: 102px;
+    }
+
+    .brick.orange{
+        margin-bottom: 10px;
+    }
+
+    .pegina .pegin-item a{
+        padding: 5px 10px!important;
+    }
+    .pegina .pegin-item.active{
+        padding: 5px 10px!important;
+    }
+    .partners .col-md-4{
+        margin: 0px 0px 10px 0px;
+    }
+    .text-brick{
+        width: 65%;
+    }
+    .brick.light {
+        margin-bottom: 10px;
+    }
+    .off-card .col-md-4{
+        width: 100%;
+    }
+
+    .off-card .col-md-4 .cr-card{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .bank-info .branc-atms .number .branc-atms-square {
+        font-size: 12px!important;
+    }
+    .bank-info .branc-atms .number .branc-atms-square {
+        font-size: 12px!important;
+        width: 90px!important;
+        height: 90px!important;
+    }
+    .bank-info .branc-atms .header {
+        font-size: 20px!important;
+    }
+    .item .brand-block {
+        border-right: 0px!important;
+    }
+    .item .main-body .label {
+        font-size: 24px!important;
+    }
+    .item .main-body .subtext {
+        font-size: 12px!important;
+    }
+    .bank-list .data {
+        font-size: 14px!important;
+    }
+    .item .more {
+        padding: 15px 64px!important;
+    }
+    .card-inf-col{
+        display: none!important;
+    }
+    .plastic-card .name-card {
+       display: block!important;
+    }
+    .plastic-card .card-ser {
+       display: block!important;
+    }
+    .card-inf-col .name-card{
+        display: none!important;
+    }
+    .card-inf-col .name-card{
+        display: none!important;
+    }
+    .card-inf-col .card-ser{
+        display: none!important;
+    }
+    .card-item .mob-f{
+        justify-content: space-between;
+    }
+    .plastic-card .name-card {
+        margin-right: 0px!important;
+    }
+    .plastic-card .unu-rec {
+        position: absolute;
+        right: 0px;
+        background-image: url("../images/Vector\ 11.svg");
+        background-repeat: no-repeat;
+        width: 63%!important;
+        bottom: 0px;
+        height: 105px!important;
+        display: flex;
+        align-items: center;
+    }
+    .plastic-card .card-ser {
+        margin-top: 20px;
+    }
+    .plastic-card .more-btn {
+        font-size: 14px;
+    }
+    .plastic-card .divider-block {
+        height: 70px;
+    }
+    .com-chat .leave-rev {
+        margin-top: 30px;
+    }
+
+    .item .main-body .space {
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+    }
+
+    .brand-block img {
+        width: 120px!important;
+    }
+
+    .item .main-body .name {
+        font-size: 20px!important;
+    }
+
+    .item .more {
+
+    }
+
+    .main-body{
+        margin-top: 10px;
+    }
+
+    .apply-item .button-place .more {
+        width: 380px;
+
+    }
+    .apply-item .button-place {
+        position: relative;
+        bottom: initial;
+        right: initial;
+        left: initial;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .credit-price {
+        margin-bottom: 40px!important;
+    }
+    .credit-price {
+        margin-bottom: 40px!important;
+    }
+    .apply-item .button-place .more {
+        width: 80%;
+    }
+
+    .apply-item .elipse .hand img {
+        width: 200px;
+    }
+
+    .apply-item .elipse img {
+        width: 250px;
+        height: 100%;
+    }
+
+    .apply-item .elipse {
+        width: 305px;
+    }
+
+    .payman-con .payment-ac {
+        margin: 0px 20%;
+    }
+
+    .credit-option ul .tab-item {
+        margin: 0px 30px;
+    }
+
+    .tab-item-desable {
+        margin: 0px 30px;
+    }
+
+    .vacancy-list .col-md-4 {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .partners-block .par-item {
+        margin: 10px 0px;
+    }
+
+    .mob-bl{
+        display: block;
+    }
+
+    .review-list img {
+        max-height: 40px;
+    }
+    .mob-bl .col-md-12{
+        margin: 5px 0px;
+    }
+
+    .mob-bl .user-inf{
+        font-size: 12px;
+        padding: 0px!important;
+    }
+
+    .site-map .col-md-3 {
+        width: 217px;
+    }
+
+    .site-map .col-md-3.right-side {
+        width: 217px;
+        margin-top: 80px;
+    }
+    .item .main-body .sums {
+        font-size: 25px;
+        color: #F15330;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+    .range-1-nums li {
+        font-size: 12px;
+    }
+    .range-1-nums li:last-child {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 674px) {
+    .site-map .col-md-3.right-side {
+        width: 217px;
+        margin-top: 0px;
+    }
+
+    .site-map .bottom-control {
+        padding-bottom: 40px;
+        border-bottom: 1px solid #eeeeee;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .cond-div {
+        text-align: center;
+        margin: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 507px){
+
+
+
+    .main-tabs .nav-item .nav-link img{width: 25px;}
+
+
+    .main-tabs .nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #202039!important;
+    margin-left: 18px;
+    margin-right: 7px;
+    padding: 0;
+    }
+
+    .main-tabs .nav-item {
+    padding: 29px 10px;
+    }
+
+}
+
+@media screen and (max-width: 560px){
+    .credit-option ul {
+        justify-content: left;
+        overflow: scroll;
+    }
+
+    .pos-cr {
+        margin: 10px 0px;
+        width: 50%;
+    }
+    .mob-jus-l{
+        justify-content: left!important;
+    }
+
+    .credit-rate {
+        width: max-content;
+    }
+    .credit-price {
+        width: max-content;
+    }
+}
+
+
+@media screen and (max-width: 461px){
+
+    .card-item .mob-f {
+        margin: 0px auto;
+    }
+
+    .plastic-card .unu-rec {
+        width: 90%!important;
+
+    }
+
+    .plastic-card .card-item {
+        padding-bottom: 125px;
+    }
+
+    .plastic-card .more-btn {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .plastic-card .unu-rec {
+        justify-content: center;
+        width: 100%!important;
+        background-color: #f5f5f5;
+    }
+    .plastic-card .more-btn {
+        padding: 13px 50px!important;
+    }
+
+    .card-inf-col{
+        display: block!important;
+    }
+    .plastic-card .name-card {
+       display: none!important;
+    }
+    .plastic-card .card-ser {
+       display: none!important;
+    }
+    .card-inf-col .name-card{
+        display: block!important;
+    }
+    .card-inf-col .name-card{
+        display: block!important;
+    }
+    .card-inf-col .card-ser{
+        display: block!important;
+    }
+    .card-item .mob-f {
+        justify-content: center;
+        width: min-content;
+    }
+    .plastic-card .card-item .card img {
+        width: 175px!important;
+    }
+    .plastic-card .divider-block {
+        width: 150px;
+        height: 1px;
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 456px){
+
+    .off-card .cr-card .elipse img {
+        margin-left: 32%!important;
+        width: 60px!important;
+        height: 60px!important;
+    }
+
+    .off-card .cr-card .elipse {
+        width: 40%!important;
+        height: 185px!important;
+    }
+    .off-card .cr-card {
+        height: 135px!important;
+    }
+    .off-card .cr-card .off .header {
+        font-size: 20px!important;
+    }
+
+    .review-list .item {
+        border: 1px solid #C4C4C4;
+        padding: 33px 30px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .bank-info .info .text p {
+        font-size: 12px;
+    }
+    .review-block .top-control {
+        flex-wrap: wrap;
+    }
+    .review-block .top-control .user-param {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .review-block .top-control .user-param .rating {
+        margin-top: 1px;
+    }
+    .review-block .top-control .user-param {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 405px){
+    .review-block .top-control .user-param .rating {
+        margin-left: auto;
+    }
+
+    .apply-item .elipse {
+        width: 240px;
+    }
+
+    .apply-item .elipse img {
+        width: 195px;
+    }
+
+    .apply-item .elipse .hand img {
+        width: 150px;
+    }
+
+    .apply-item .credit-rate .rate-percent .percenet {
+        font-size: 19px;
+    }
+
+    .apply-item .credit-rate .rate-percent.amount {
+        margin-left: 20px;
+    }
+
+    .sub-per {
+        font-size: 10px;
+    }
+
+    .attention-rate {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 397px){
+
+    .brick-image{
+        width: 0%;
+        padding: 0;
+    }
+    .text-brick{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 368px){
+
+    .contact-block .cotact-item .telephone {
+        font-size: 11px;
+    }
+    .contact-block .cotact-item .header {
+        font-size: 11px;
+    }
+
+    .review-list .item .footer button {
+        background-color: #fff;
+        color: #C4C4C4;
+        font-size: 14px;
+        font-weight: 700;
+        border: 1px solid #C4C4C4;
+        border-radius: 5px;
+        padding: 11px 53px;
+    }
+
+    .mob-bl .col-md-12 p{
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width: 350px){
+    .bank-info .branc-atms .number .branc-atms-square {
+        width: 100px!important;
+        height: 100px!important;
+        font-size: 12px!important;
+    }
+
+    .bank-info .branc-atms .header {
+        font-size: 15px!important;
+    }
+    .bank-list .data {
+        font-size: 10px!important;
+    }
+
+    .vacancy-list .vacancy-item .vac {
+        font-size: 25px;
+    }
+    .vacancy-list .vacancy-item {
+        border: 1px solid #C4C4C4;
+        border-radius: 5px;
+        padding: 65px 25px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .get-credit {
+        font-size: 16px;
+    }
+    .our-summ span {
+        font-size: 25px;
+    }
+    .our-summ i {
+        /*padding: 4px 5px;*/
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 338px){
+    .get-credit{
+        width: max-content!important;
+    }
+}
+
+@media screen and (max-width: 320px){
+}
+

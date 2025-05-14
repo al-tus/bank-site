@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banki.tech</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body>
+    
+  <!-- Menuu -->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand" href="./">Banki.tech</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center">
+          <li class="nav-item ">
+            <a class="nav-link" aria-current="page" href="./bank-card.html">Банки</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./get-credit.html">Кредиты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./get-credit.html">Вклады</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./card.html">Карты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./insurance-companies.html">Страховые организации</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./articles.html">Новости</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Аналитика</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-more-btn" aria-current="page" href="#"><i class="fa-solid fa-ellipsis cm"></i></a>
+          </li>
+        </ul>
+        <a class="float-right nav-link" aria-current="page" href="#">Вход</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Head Image -->
+  <div class="head-image">
+
+  </div>
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="off-card">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="cr-card d-flex">
+                        <div class="off">
+                            <div class="header">Кредиты</div>
+                            <div class="offer-q">15 предложений</div>
+                        </div>
+                        <div class="elipse">
+                            <img src="assets/images/002-money-bag.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cr-card d-flex">
+                        <div class="off">
+                            <div class="header">Вклады</div>
+                            <div class="offer-q">15 предложений</div>
+                        </div>
+                        <div class="elipse blue-c">
+                            <img src="assets/images/003-safe-box.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cr-card d-flex">
+                        <div class="off">
+                            <div class="header">Банковские карты</div>
+                            <div class="offer-q">15 предложений</div>
+                        </div>
+                        <div class="elipse yellow-c">
+                            <img src="assets/images/001-credit-cards.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bank-info">
+            <div class="row">
+                <div class="col-md-8 d-flex align-items-center">
+                    <div class="info">
+                        <div class="header">Информация о банке</div>
+                        <div class="subtitle">Контакты</div>
+                        <div class="text">
+                            <p>Номер лицензии банка 000097 |</p>
+                            <p> Головной офис г. Москва, улица Айни, 24</p>
+                            <p>Номер телефонов горячей линии (+992 44) 601-40-67, 601-40-42</p>
+                            <p>Официальный сайт http://halykbank.tech/</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="branc-atms">
+                        <div class="branc-atms-block">
+                            <div class="header">Отделения и банкоматы</div>
+                            <div class="number d-flex justify-content-center">
+                                <div class="branc-atms-square">
+                                    <div class="entrails">
+                                        <div class="header">0</div>
+                                        отделений
+                                    </div>
+                                </div>
+                                <div class="branc-atms-square atms">
+                                    <div class="entrails">
+                                        <div class="header">0</div>
+                                        банкоматов
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+         <div class="site-tabs-content ">
+             <div class="col-md-12 sel-tab-items active" id="credits-tap">
+          <div class="tab-items-flex">
+            <div class="sel-tab-flex mt-5">
+              <div class="cart-header-1">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="credits-tap-label">
+                      <label for="">Ежемесячный платёж</label>
+                      <p class="monthly-payment">15 000</p>
+                    </div>
+                  
+                  </div>
+                </div>
+                
+                <input type="range" min="0" max="7" step="1" value="2" class="range-1 w-100 js_range" list="sums">
+                <datalist id="sums">
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                </datalist>
+                <ul class="range-1-nums"> 
+                  <li>1000</li>
+                  <li>3 тыc</li>
+                  <li>5 тыc</li>
+                  <li>10 тыc</li>
+                  <li>15 тыc</li>
+                  <li>20 тыc</li>
+                  <li>25 тыc</li>
+                  <li>1 млн</li>
+                </ul>
+              </div>
+              <div class="cart-body-1">
+                <label for="">Срок кредита</label>
+                <div class="form-grop term-sellector pt-2">
+                  <button class="active">1 год</button>
+                  <button>2 год</button>
+                  <button>3 год</button>
+                  <button>4 год</button>
+                  <button>5 год</button>
+                </div>
+                <label class="pt-5">
+                  Расчет калькулятора произведен по ставка, действующим при условии оформления
+                 финансовой защиты к кредиту. Неявляется публичной офертой.
+                </label>
+              </div>
+              
+            </div>
+
+            <div class="sel-tab-flex mt-5 ">
+              <div class="cart-2">
+                <label>Наше предложение</label>
+                <div class="row">
+                  <div class="col-md-7">
+                    <label class="card-2-label">Первоночальный взнос</label>
+                    <p class="our-summ">
+                      <i class="fa-solid fa-minus"></i>
+                      <span class="js_initPay">1 637.5 </span> RUB
+                      <i class="fa-solid fa-plus"></i>
+                    </p>
+                  </div>
+                  <div class="col-md-5">
+                    <label class="card-2-label">Процентная ставка</label>
+                    <p class="our-summ">
+                      
+                      <span>31 %</span>
+                      
+                    </p>
+                    
+                    
+                  </div>
+                
+                  <div class="cl-md-5">
+                    <button class="gb elements w-50 get-credit mt-5 mb-4">Получить кредит</button>
+                  </div>              
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         </div>
+    </div>
+
+    <div class="bank-list">
+        <div class="container offers-list">
+            <div class="row">
+    
+                <div class="col-md-12 mt-4">
+                    <div class="list">
+    
+                        <div class="item">
+                        <div class="row">
+                            <div class="col-md-3 text-center brand-block">
+                                <img src="assets/images/image-8.png" alt="">
+                                <div class="rating"> 
+                                    <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+                                    <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> 
+                                    <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+                                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> 
+                                    <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label> 
+                                </div>
+                            </div>
+                            <div class="col-md-3 main-body d-flex align-items-center">
+                                <div class="entrails">
+                                    <p class="label">Агроинвестбанк</p>
+                                    <p class="subtext">Лицензия НБТ РТ № 003A</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 main-body d-flex align-items-center">
+                                <div class="entrails">
+                                    <p class="data">
+                                        (+992 44) 600-53-06; (+992 44) 600-53-07,<br>
+                                        г. Москва, проспект С. Шерози, 21
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 button-place" style="    margin: 0 auto;">
+                                <button class="more">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-3 text-center brand-block">
+                                <img src="assets/images/image-8.png" alt="">
+                                <div class="rating"> 
+                                    <input type="radio" name="rating1" value="5" id="10"><label for="10">☆</label> 
+                                    <input type="radio" name="rating1" value="4" id="9"><label for="9">☆</label> 
+                                    <input type="radio" name="rating1" value="3" id="8"><label for="8">☆</label> 
+                                    <input type="radio" name="rating1" value="2" id="7"><label for="7">☆</label> 
+                                    <input type="radio" name="rating1" value="1" id="6"><label for="6">☆</label> 
+                                </div>
+                            </div>
+                            <div class="col-md-3 main-body d-flex align-items-center">
+                                <div class="entrails">
+                                    <p class="label">Ориёнбанк</p>
+                                    <p class="subtext">Лицензия НБТ РТ № 003A</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 main-body d-flex align-items-center">
+                                <div class="entrails">
+                                    <p class="data">
+                                        (+992 44) 600-53-06; (+992 44) 600-53-07,<br>
+                                        г. Москва, проспект С. Шерози, 21
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 button-place" style="    margin: 0 auto;">
+                                <button class="more">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-3 text-center brand-block">
+                                <img src="assets/images/image-8.png" alt="">
+                                <div class="rating"> 
+                                    <input type="radio" name="rating2" value="5" id="15"><label for="15">☆</label> 
+                                    <input type="radio" name="rating2" value="4" id="14"><label for="14">☆</label> 
+                                    <input type="radio" name="rating2" value="3" id="13"><label for="13">☆</label> 
+                                    <input type="radio" name="rating2" value="2" id="12"><label for="12">☆</label> 
+                                    <input type="radio" name="rating2" value="" id="11"><label for="11">☆</label> 
+                                </div>
+                            </div>
+                            <div class="col-md-3 main-body d-flex align-items-center">
+                                <div class="entrails">
+                                    <p class="label">Амонатбанк </p>
+                                    <p class="subtext">Лицензия НБТ РТ № 003A</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 main-body d-flex align-items-center">
+                                <div class="entrails">
+                                    <p class="data">
+                                        (+992 44) 600-53-06; (+992 44) 600-53-07,<br>
+                                        г. Москва, проспект С. Шерози, 21
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 button-place" style="    margin: 0 auto;">
+                                <button class="more">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>            
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+
+
+<div class="container-fluid d-flex justify-content-center menu-elipse">
+    <a href=""><img src="assets/images/Ellipse 12.png" alt=""></a>
+    <a href=""><img src="assets/images/Ellipse 13.png" alt=""></a>
+    <a href=""><img src="assets/images/Ellipse 14.png" alt=""></a>
+    <a href=""><img src="assets/images/Ellipse 15.png" alt=""></a>
+    <a href=""><img src="assets/images/Ellipse 16.png" alt=""></a>
+  </div>
+  
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 copyright">
+          <span>
+            © 2021 ООО «Banki.tech». Email: info@banki.tech; Контакты: 918 85-72-70 <br>При использовании материалов гиперссылка на banki.tech обязательна.
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>    
+
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

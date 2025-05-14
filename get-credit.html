@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banki.tech</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body>
+    
+  <!-- Menuu -->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand" href="./">Banki.tech</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./bank-card.html">Банки</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./get-credit.html">Кредиты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./get-credit.html">Вклады</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./card.html">Карты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./insurance-companies.html">Страховые организации</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./articles.html">Новости</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Аналитика</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-more-btn" aria-current="page" href="#"><i class="fa-solid fa-ellipsis cm"></i></a>
+          </li>
+        </ul>
+        <a class="float-right nav-link" aria-current="page" href="#">Вход</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Head Image -->
+  <div class="head-image">
+
+  </div>
+
+  <div class="container-fluid ">
+      <div class="container">
+        <div class="apply-item">
+          <div class="row">
+            <div class="elipse col-md-4">
+                <img src="assets/images/Ellipse 7.svg" alt="">
+                <div class="hand">
+                    <img src="assets/images/OBJECT 1.png" alt="">
+                </div>
+            </div>
+            <div class="credit-price col-md-4">
+              <div class="credit-rate d-flex">
+                  <div class="rate-percent">
+                      <p class="percenet">от <span class="boold">28%</span></p>
+                      <p class="sub-per">Наше предложение</p>
+                  </div>
+                  
+                  <div class="rate-percent amount">
+                      <p class="percenet"><span class="boold">10 000</span> RUB</p>
+                      <p class="sub-per">Наше предложение</p>
+                  </div>
+              </div>
+              <div class="attention-rate">*До 36 мес | Паспорт РТ + документа</div>
+            </div>
+            <div class="button-place col-md-3 " >
+              <button class="more">Подробнее</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="container">
+        <div class="site-tabs-content">
+           <div class="col-md-12 sel-tab-items active" id="credits-tap">
+          <div class="tab-items-flex">
+            <div class="sel-tab-flex mt-5">
+              <div class="cart-header-1">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="credits-tap-label">
+                      <label for="">Ежемесячный платёж</label>
+                      <p class="monthly-payment">15 000</p>
+                    </div>
+                  
+                  </div>
+                </div>
+                
+                <input type="range" min="0" max="7" step="1" value="2" class="range-1 w-100 js_range" list="sums">
+                <datalist id="sums">
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                </datalist>
+                <ul class="range-1-nums"> 
+                  <li>1000</li>
+                  <li>3 тыc</li>
+                  <li>5 тыc</li>
+                  <li>10 тыc</li>
+                  <li>15 тыc</li>
+                  <li>20 тыc</li>
+                  <li>25 тыc</li>
+                  <li>1 млн</li>
+                </ul>
+              </div>
+              <div class="cart-body-1">
+                <label for="">Срок кредита</label>
+                <div class="form-grop term-sellector pt-2">
+                  <button class="active">1 год</button>
+                  <button>2 год</button>
+                  <button>3 год</button>
+                  <button>4 год</button>
+                  <button>5 год</button>
+                </div>
+                <label class="pt-5">
+                  Расчет калькулятора произведен по ставка, действующим при условии оформления
+        финансовой защиты к кредиту. Неявляется публичной офертой.
+                </label>
+              </div>
+              
+            </div>
+
+            <div class="sel-tab-flex mt-5 ">
+              <div class="cart-2">
+                <label>Наше предложение</label>
+                <div class="row">
+                  <div class="col-md-7">
+                    <label class="card-2-label">Первоночальный взнос</label>
+                    <p class="our-summ">
+                      <i class="fa-solid fa-minus"></i>
+                      <span class="js_initPay">1 637.5 </span> RUB
+                      <i class="fa-solid fa-plus"></i>
+                    </p>
+                  </div>
+                  <div class="col-md-5">
+                    <label class="card-2-label">Процентная ставка</label>
+                    <p class="our-summ">
+                      
+                      <span>31 %</span>
+                      
+                    </p>
+                    
+                    
+                  </div>
+                
+                  <div class="cl-md-5">
+                    <button class="gb elements w-50 get-credit mt-5 mb-4">Получить кредит</button>
+                  </div>              
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="container payman-con">
+      <div class="payment-ac">
+        <div class="row">
+          <div class="col-md-4 hed-pay-price hed-pay">
+            <p>Сумма кредита</p>
+            <div class="rectagle w-100">
+              <div class="retagle-fill"></div>
+              <div class="rec-elipse"></div>
+            </div>
+              <div class="rec-num-out"><span class="t-boold">15 000</span> RUB</div>
+          </div>
+          <div class="col-md-4 hed-pay-time hed-pay">
+            <p>Срок</p>
+            <div class="rectagle w-100">
+              <div class="retagle-fill"></div>
+              <div class="rec-elipse"></div>
+            </div>
+            <div class="rec-num-out">24 месяца</div>
+          </div>
+          <div class="col-md-4 hed-pay-bet hed-pay">
+            <p>Ставка</p>
+            <div class="rectagle">
+              <div class="retagle-fill"></div>
+              <div class="rec-elipse"></div>
+            </div>
+            <div class="rec-num-out">31%</div>
+          </div>
+          <div class="attention-rate clr-b">Процентные ставки определяются индивидуально для каждого заемщика в соответствии с оценкой данных заемщика</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="container">
+      <div class="how-get-c">
+        <p class="hw-gt-p t-boold">Как получить</p>
+
+        <div class="conditions-c">
+          <div class="row">
+            <div class="col-sm-4 justify-content-center d-flex">
+              <div class="cond-div">
+                <div class="elipse t-boold">
+                  1
+                </div> 
+                <div class="cond-h t-boold">Отправть заявку</div>
+                <div class="more-detal">
+                  Заполните онлайн-анкету
+                  и отправьте заявку в банк
+                  в течение 5 минут
+                </div>
+              </div>   
+            </div>
+            <div class="col-sm-4 justify-content-center d-flex">
+              <div class="cond-div">
+                <div class="elipse t-boold">
+                  2
+                </div>  
+                <div class="cond-h t-boold">Узнайте решение</div>
+                  <div class="more-detal">
+                    Заполните онлайн-анкету
+                    и отправьте заявку в банк
+                    в течение 5 минут
+                  </div>   
+              </div>
+            </div>
+            <div class="col-sm-4 justify-content-center d-flex">
+              <div class="cond-div">
+                <div class="elipse t-boold">
+                  3
+                </div> 
+                <div class="cond-h t-boold">Узнайте решение</div>
+                  <div class="more-detal ">
+                    Заполните онлайн-анкету
+                    и отправьте заявку в банк
+                    в течение 5 минут
+                  </div>   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contanir-fluid">
+    <div class="container">
+      <div class="credit-option">
+        <ul>
+            <li class="tab-item-desable">
+              <p class="tab-link">Кредиты</p>
+            </li>
+            <button class="tab-item" data-tab="#tab-2">
+              <p class="tab-link">Условия</p>
+            </button>
+            <button class="tab-item" data-tab="#tab-3">
+              <p class="tab-link">Выплаты</p>
+            </button>
+            <button class="tab-item" data-tab="#tab-4">
+              <p class="tab-link" >Документы</p>
+            </button>
+          </ul>
+        </div>
+        
+        <div class="cond-ct ct-tab-div" id="tab-2">
+          <div class="d-flex justify-content-center mob-jus-l align-items-center flex-wrap h-100">  
+              <div class="money-credit d-flex">
+                <img src="assets/images/001-money.svg" alt="">
+                <p>Сумма кредита <span class="bl-text">500.00 - 50 000.00</span></p>
+              </div>
+              <div class="money-credit d-flex">
+                <img src="assets/images/002-percentage.svg" alt="">
+                <p>Ставка кредита <span class="bl-text">2.00% - 2.00%</span></p>
+            </div>
+              <div class="money-credit d-flex">
+                <img src="assets/images/Layer 1 1.svg" alt="">
+                <p>До <span class="bl-text">12 месяцев</span></p>
+            </div>
+            </div>
+          </div>
+
+          <div class="req-ct ct-tab-div" id="tab-3">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="check-ct d-flex flex-wrap">
+                <div class="pos-cr">
+                  <img src="assets/images/001-passport.svg" alt="">
+                  <p>Паспорт</p>
+                </div>
+                <div class="pos-cr">
+                  <img src="assets/images/002-patent.svg" alt="">
+                  <p>ИНН</p>
+                </div>
+                <div class="pos-cr">
+                  <img src="assets/images/003-certificate.svg" alt="">
+                  <p>Копия <br>патента</p>
+                </div>
+                <div class="pos-cr">
+                  <img src="assets/images/004-certificate-1.svg" alt="">
+                  <p>Копия <br>свидетельства</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="doc-ct ct-tab-div" id="tab-4">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <p>Цель кредита: Содействие в развитии внутренного туризма в стране.<br>
+
+                Максимальная сумма кредита: до 4000 рублей<br>
+                
+                Процентная ставка: 0% годовых<br>
+                
+                Срок кредита: до 6 месяцев</p>    
+            </div>    
+          </div>
+      </div>
+  
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 copyright">
+          <span>
+            © 2021 ООО «Banki.tech». Email: info@banki.tech; Контакты: 918 85-72-70 <br>При использовании материалов гиперссылка на banki.tech обязательна.
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>    
+
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
