@@ -2,7 +2,6 @@
 
 A multi-page frontend website template for a fictional banking system. Built using HTML, CSS, and vanilla JavaScript.
 
-![Preview](screenshot.png)
 
 ## Features
 
