@@ -14,7 +14,7 @@ A multi-page frontend website template for a fictional banking system. Built usi
 
 ## Live Demo
 
-👉 [View on GitHub Pages](https://al-tus.github.io/bank-site/)
+[View on GitHub Pages](https://al-tus.github.io/bank-site/)
 
 ## Notes
 
